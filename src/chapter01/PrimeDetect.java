@@ -14,7 +14,7 @@ public class PrimeDetect {
 		// 판단 알고리즘
 		int i = 2;
 		boolean isPrime = true;
-		while( i < number - 1 ) {
+		while( i < number ) {
 			if( number % i == 0 ) {
 				isPrime = false;
 				break;
