@@ -28,5 +28,7 @@ public class PrimeDetect {
 		} else {
 			System.out.println( "소수가 아닙니다." );
 		}
+		
+		scanner.close();
 	}
 }
