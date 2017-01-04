@@ -16,7 +16,8 @@ public class NHelloWorld01 {
 				"[" + (i+1) + "] Hello World"    );
 			i++;
 		}
-
+		
+		scanner.close();
 	}
 
 }
